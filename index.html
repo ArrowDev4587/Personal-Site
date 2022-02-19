@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="assets/icon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Ahmet Dursun </title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        
+    </head>
+    
+    <div class="hero" id="top">
+        <body id="#top">
+            <nav>
+                <img href="index.html"src="assets/logo.png" class="logo">
+                <div class="social-links">
+                        <a href="https://github.com/ArrowDev4587"> <i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/aad_1881/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://discord.gg/B9KSMqRNpN"><i class="fab fa-discord"></i></a>
+                        <a class="dil" id="dil"> <i class="fa-solid fa-globe"></i> </a>
+                        <a class="mode" id="icon"><i class="far fa-lightbulb"></i></a>
+                </div>
+
+            </nav>
+            <div class="info" >
+                <h1 id="ayem">I'm <span>Ahmet</span> Dursun</h1>
+                <p id="info">This is my official portfolio website to showcase my all works related to Web <br> design and Discord bot
+                    development.</p>
+               <p id="see-pro">See my <a id="gor" href="#projects">projects.</a> </p> 
+            </div>
+
+
+        </body>      
+        </div>
+        <div class="hero2" >
+            <div class="projects" id="projects"> 
+                <div class="grid"> 
+                    <i class="fas fa-robot"></i>
+                    
+                        <div class="info2">
+                            <h3>İstiklal Bot</h3>
+                            <a id="istiklal-bot">Discord bot made for İstiklal Gaming CS 1.6 Server. </a>
+                        </div>
+                </div>
+                <div class="grid"> 
+                    <i class="fas fa-code"></i>
+                    
+                    <div class="info2">
+                        <h3>İstiklal Website</h3>
+                        <a id="istiklal-site" href="https://istiklalgaming.infinityfreeapp.com" >Website made for İstiklal Gaming CS 1.6 Server. </a>    
+                                             
+                    </div>
+                </div>
+                <div class="grid"> 
+                    <i class="fas fa-robot"></i>
+                    
+                    <div class="info2">
+                        <h3>Overwatch Bot</h3>
+                        <a id="overwatch-bot">Discord bot made for fun. </a>
+                    </div>
+                </div>
+                <div class="grid"> 
+                    <i class="fas fa-code"></i>
+                    
+                    <div class="info2">
+                        <h3>Ture Software Website</h3>
+                        <a id="ture-web" href="https://ture-software.web.app/">Contact and info website made for Ture Software. </a>    
+                                             
+                    </div>
+                </div>
+                
+            </div>
+            <a class="top-button" href="#top"><i class="fas fa-sort-up"></i></a>
+        </div>
+        <script>
+
+            var dil = document.getElementById("dil");
+        
+            dil.onclick = function(){
+                document.getElementById("ayem").innerHTML = "Ben <span>Ahmet</span> Dursun";
+                document.getElementById("info").innerHTML = "Bu, Web tasarımı ve Discord bot geliştirme ile ilgili tüm çalışmalarımı sergilemek için resmi portföy web sitem .";
+                document.getElementById("see-pro").innerHTML = 'Projelerimi <a id="gor" href="#projects">gör.</a>';
+                document.getElementById("gor").innerHTML = "gör";
+                document.getElementById("istiklal-bot").innerHTML = "İstiklal Gaming CS 1.6 Sunucusu için yapılmış discord botu.";
+                document.getElementById("istiklal-site").innerHTML = "İstiklal Gaming CS 1.6 Sunucusu için yapılmış websitesi.";
+                document.getElementById("overwatch-bot").innerHTML = "Eğlence için yapılmış bir discord botu.";
+                document.getElementById("ture-web").innerHTML = "Ture Software için yapılmış destek ve bilgi sitesi. ";
+        
+            }
+        
+            var icon = document.getElementById("icon");
+        
+            icon.onclick = function(){
+                document.body.classList.toggle("dark-theme")
+            }
+        
+        
+        </script>
+</html>
+
